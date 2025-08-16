@@ -1,0 +1,437 @@
+2025-08-14 13:02:13,089 - INFO - Starting healthcare claims processing pipeline
+2025-08-14 13:02:13,092 - INFO - Ingesting data from EMR sources...
+2025-08-14 13:02:13,116 - INFO - Successfully loaded 5 records from emr_alpha.csv
+2025-08-14 13:02:13,124 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-14 13:02:13,132 - INFO - Normalizing schemas...
+2025-08-14 13:02:13,132 - INFO - Normalized 9 total claims
+2025-08-14 13:02:13,140 - INFO - Analyzing resubmission eligibility...
+2025-08-14 13:02:13,140 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:02:13,149 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:02:13,149 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:02:13,156 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:02:13,156 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:02:13,165 - INFO - Pipeline completed successfully!
+2025-08-14 13:02:13,165 - INFO - Identified 4 claims for resubmission
+2025-08-14 13:02:13,172 - INFO - All 4 candidates passed validation
+2025-08-14 13:02:13,172 - INFO - Results saved to resubmission_candidates.json
+2025-08-14 13:02:13,181 - INFO - File verification successful: 4 records
+2025-08-14 13:02:13,189 - INFO - Metrics saved to pipeline_metrics.json
+2025-08-14 13:02:13,239 - INFO - Successfully loaded 5 records from emr_alpha.csv
+2025-08-14 13:02:13,247 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-14 13:02:13,255 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:02:13,255 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:02:13,255 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:02:13,263 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:02:13,263 - INFO - 'Authorization expired' matched explicit non-retryable rule
+2025-08-14 13:02:13,263 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:02:13,272 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:02:13,272 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:02:13,272 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:02:13,272 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:02:13,272 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:02:13,280 - INFO - 'incorrect procedure' classified as retryable via ambiguous mapping
+2025-08-14 13:02:13,280 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:02:13,280 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:02:13,288 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:02:13,288 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:02:13,288 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:34:25,739 - INFO - Successfully loaded 5 records from emr_alpha.csv
+2025-08-14 13:34:25,742 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-14 13:34:25,746 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:34:25,746 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:34:25,746 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:34:25,754 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:34:25,754 - INFO - 'Authorization expired' matched explicit non-retryable rule
+2025-08-14 13:34:25,762 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:34:25,762 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:34:25,762 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:34:25,770 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:34:25,770 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:34:25,778 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:34:25,778 - INFO - 'incorrect procedure' classified as retryable via ambiguous mapping
+2025-08-14 13:34:25,787 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:34:25,787 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:34:25,787 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:34:25,794 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:34:25,794 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:38:56,927 - INFO - Starting healthcare claims processing pipeline
+2025-08-14 13:38:56,927 - INFO - Ingesting data from EMR sources...
+2025-08-14 13:38:56,935 - INFO - Successfully loaded 5 records from emr_alpha.csv
+2025-08-14 13:38:56,943 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-14 13:38:56,943 - INFO - Normalizing schemas...
+2025-08-14 13:38:56,951 - INFO - Normalized 9 total claims
+2025-08-14 13:38:56,951 - INFO - Analyzing resubmission eligibility...
+2025-08-14 13:38:56,951 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:38:56,959 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:38:56,959 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:38:56,959 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:38:56,967 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:38:56,967 - INFO - Pipeline completed successfully!
+2025-08-14 13:38:56,967 - INFO - Identified 4 claims for resubmission
+2025-08-14 13:38:56,975 - INFO - All 4 candidates passed validation
+2025-08-14 13:38:56,975 - INFO - Results saved to resubmission_candidates.json
+2025-08-14 13:38:56,983 - INFO - File verification successful: 4 records
+2025-08-14 13:38:56,991 - INFO - Metrics saved to pipeline_metrics.json
+2025-08-14 13:38:57,031 - INFO - Successfully loaded 5 records from emr_alpha.csv
+2025-08-14 13:38:57,039 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-14 13:38:57,039 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:38:57,047 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:38:57,047 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:38:57,047 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:38:57,055 - INFO - 'Authorization expired' matched explicit non-retryable rule
+2025-08-14 13:38:57,055 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:38:57,055 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:38:57,064 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:38:57,064 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:38:57,064 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:38:57,072 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:38:57,072 - INFO - 'incorrect procedure' classified as retryable via ambiguous mapping
+2025-08-14 13:38:57,081 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:38:57,081 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:38:57,088 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:38:57,088 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:38:57,088 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:42:56,915 - INFO - Starting healthcare claims processing pipeline
+2025-08-14 13:42:56,915 - INFO - Ingesting data from EMR sources...
+2025-08-14 13:42:56,924 - INFO - Successfully loaded 5 records from emr_alpha.csv
+2025-08-14 13:42:56,931 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-14 13:42:56,939 - INFO - Normalizing schemas...
+2025-08-14 13:42:56,939 - INFO - Normalized 9 total claims
+2025-08-14 13:42:56,939 - INFO - Analyzing resubmission eligibility...
+2025-08-14 13:42:56,947 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:42:56,947 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:42:56,947 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:42:56,947 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:42:56,955 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:42:56,955 - INFO - Pipeline completed successfully!
+2025-08-14 13:42:56,963 - INFO - Identified 4 claims for resubmission
+2025-08-14 13:42:56,963 - INFO - All 4 candidates passed validation
+2025-08-14 13:42:56,971 - INFO - Results saved to resubmission_candidates.json
+2025-08-14 13:42:56,979 - INFO - File verification successful: 4 records
+2025-08-14 13:42:56,979 - INFO - Metrics saved to pipeline_metrics.json
+2025-08-14 13:42:57,028 - INFO - Successfully loaded 5 records from emr_alpha.csv
+2025-08-14 13:42:57,028 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-14 13:42:57,036 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:42:57,036 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:42:57,036 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:42:57,044 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:42:57,044 - INFO - 'Authorization expired' matched explicit non-retryable rule
+2025-08-14 13:42:57,044 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:42:57,053 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:42:57,053 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:42:57,061 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:42:57,064 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:42:57,064 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:42:57,068 - INFO - 'incorrect procedure' classified as retryable via ambiguous mapping
+2025-08-14 13:42:57,068 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:42:57,068 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:42:57,076 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:42:57,076 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:42:57,084 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:46:01,300 - INFO - Starting healthcare claims processing pipeline
+2025-08-14 13:46:01,300 - INFO - Ingesting data from EMR sources...
+2025-08-14 13:46:01,338 - INFO - Successfully loaded 6 records from emr_alpha.csv
+2025-08-14 13:46:01,338 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-14 13:46:01,346 - INFO - Normalizing schemas...
+2025-08-14 13:46:01,346 - INFO - Normalized 10 total claims
+2025-08-14 13:46:01,346 - INFO - Analyzing resubmission eligibility...
+2025-08-14 13:46:01,354 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:46:01,354 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:46:01,354 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:46:01,362 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:46:01,362 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:46:01,362 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:46:01,362 - INFO - Pipeline completed successfully!
+2025-08-14 13:46:01,370 - INFO - Identified 5 claims for resubmission
+2025-08-14 13:46:01,378 - INFO - All 5 candidates passed validation
+2025-08-14 13:46:01,386 - INFO - Results saved to resubmission_candidates.json
+2025-08-14 13:46:01,410 - INFO - File verification successful: 5 records
+2025-08-14 13:46:01,418 - INFO - Metrics saved to pipeline_metrics.json
+2025-08-14 13:46:01,462 - INFO - Successfully loaded 6 records from emr_alpha.csv
+2025-08-14 13:46:01,467 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-14 13:46:01,467 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:46:01,475 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:46:01,475 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:46:01,475 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:46:01,483 - INFO - 'Authorization expired' matched explicit non-retryable rule
+2025-08-14 13:46:01,483 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:46:01,483 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:46:01,492 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:46:01,492 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:46:01,499 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:46:01,499 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:46:01,499 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:46:01,507 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:46:01,507 - INFO - 'incorrect procedure' classified as retryable via ambiguous mapping
+2025-08-14 13:46:01,507 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-14 13:46:01,515 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:46:01,515 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-14 13:46:01,524 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-14 13:46:01,524 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-14 13:46:01,531 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:52:25,812 - INFO - Starting healthcare claims processing pipeline
+2025-08-15 00:52:25,820 - INFO - Ingesting data from EMR sources...
+2025-08-15 00:52:25,902 - INFO - Successfully loaded 6 records from emr_alpha.csv
+2025-08-15 00:52:25,918 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-15 00:52:25,918 - INFO - Normalizing schemas...
+2025-08-15 00:52:25,918 - INFO - Normalized 10 total claims
+2025-08-15 00:52:25,927 - INFO - Analyzing resubmission eligibility...
+2025-08-15 00:52:25,927 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:52:25,927 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:52:25,935 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:52:25,935 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 00:52:25,935 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:52:25,943 - INFO - Pipeline completed successfully!
+2025-08-15 00:52:25,943 - INFO - Identified 4 claims for resubmission
+2025-08-15 00:52:25,943 - INFO - All 4 candidates passed validation
+2025-08-15 00:52:25,951 - INFO - Results saved to resubmission_candidates.json
+2025-08-15 00:52:25,986 - INFO - File verification successful: 4 records
+2025-08-15 00:52:25,993 - INFO - Metrics saved to pipeline_metrics.json
+2025-08-15 00:52:26,056 - INFO - Successfully loaded 6 records from emr_alpha.csv
+2025-08-15 00:52:26,064 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-15 00:52:26,064 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:52:26,072 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:52:26,072 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:52:26,072 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:52:26,081 - INFO - 'Authorization expired' matched explicit non-retryable rule
+2025-08-15 00:52:26,081 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-15 00:52:26,089 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:52:26,089 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:52:26,097 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 00:52:26,097 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 00:52:26,097 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:52:26,106 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:52:26,106 - INFO - 'incorrect procedure' classified as retryable via ambiguous mapping
+2025-08-15 00:52:26,113 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:52:26,113 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:52:26,113 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:52:26,122 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 00:52:26,122 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:53:20,793 - INFO - Starting healthcare claims processing pipeline
+2025-08-15 00:53:20,793 - INFO - Ingesting data from EMR sources...
+2025-08-15 00:53:20,802 - INFO - Successfully loaded 6 records from emr_alpha.csv
+2025-08-15 00:53:20,810 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-15 00:53:20,818 - INFO - Normalizing schemas...
+2025-08-15 00:53:20,818 - INFO - Normalized 10 total claims
+2025-08-15 00:53:20,821 - INFO - Analyzing resubmission eligibility...
+2025-08-15 00:53:20,821 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:53:20,826 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:53:20,826 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:53:20,826 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 00:53:20,834 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:53:20,834 - INFO - Pipeline completed successfully!
+2025-08-15 00:53:20,842 - INFO - Identified 4 claims for resubmission
+2025-08-15 00:53:20,842 - INFO - All 4 candidates passed validation
+2025-08-15 00:53:20,850 - INFO - Results saved to resubmission_candidates.json
+2025-08-15 00:53:20,850 - INFO - File verification successful: 4 records
+2025-08-15 00:53:20,858 - INFO - Metrics saved to pipeline_metrics.json
+2025-08-15 00:53:20,900 - INFO - Successfully loaded 6 records from emr_alpha.csv
+2025-08-15 00:53:20,907 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-15 00:53:20,907 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:53:20,915 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:53:20,915 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:53:20,915 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:53:20,921 - INFO - 'Authorization expired' matched explicit non-retryable rule
+2025-08-15 00:53:20,923 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-15 00:53:20,923 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:53:20,932 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:53:20,932 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 00:53:20,932 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 00:53:20,940 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:53:20,940 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:53:20,948 - INFO - 'incorrect procedure' classified as retryable via ambiguous mapping
+2025-08-15 00:53:20,948 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:53:20,948 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:53:20,957 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:53:20,957 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 00:53:20,965 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:53:53,880 - INFO - Starting healthcare claims processing pipeline
+2025-08-15 00:53:53,889 - INFO - Ingesting data from EMR sources...
+2025-08-15 00:53:53,921 - INFO - Successfully loaded 6 records from emr_alpha.csv
+2025-08-15 00:53:53,929 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-15 00:53:53,929 - INFO - Normalizing schemas...
+2025-08-15 00:53:53,929 - INFO - Normalized 10 total claims
+2025-08-15 00:53:53,929 - INFO - Analyzing resubmission eligibility...
+2025-08-15 00:53:53,937 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:53:53,937 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:53:53,937 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-15 00:53:53,946 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 00:53:53,946 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:53:53,954 - INFO - Pipeline completed successfully!
+2025-08-15 00:53:53,954 - INFO - Identified 4 claims for resubmission
+2025-08-15 00:53:53,954 - INFO - All 4 candidates passed validation
+2025-08-15 00:53:53,962 - INFO - Results saved to resubmission_candidates.json
+2025-08-15 00:53:53,962 - INFO - File verification successful: 4 records
+2025-08-15 00:53:53,970 - INFO - Metrics saved to pipeline_metrics.json
+2025-08-15 00:53:54,014 - INFO - Successfully loaded 6 records from emr_alpha.csv
+2025-08-15 00:53:54,020 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-15 00:53:54,020 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:53:54,020 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:53:54,027 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:53:54,036 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:53:54,036 - INFO - 'Authorization expired' matched explicit non-retryable rule
+2025-08-15 00:53:54,036 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-15 00:53:54,036 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-15 00:53:54,044 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:53:54,044 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 00:53:54,053 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 00:53:54,053 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:53:54,053 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:53:54,053 - INFO - 'incorrect procedure' classified as retryable via ambiguous mapping
+2025-08-15 00:53:54,061 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 00:53:54,061 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 00:53:54,068 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-15 00:53:54,068 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 00:53:54,076 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 01:02:13,430 - INFO - Starting healthcare claims processing pipeline
+2025-08-15 01:02:13,432 - INFO - Ingesting data from EMR sources...
+2025-08-15 01:02:13,459 - INFO - Successfully loaded 6 records from emr_alpha.csv
+2025-08-15 01:02:13,483 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-15 01:02:13,485 - INFO - Normalizing schemas...
+2025-08-15 01:02:13,487 - INFO - Normalized 10 total claims
+2025-08-15 01:02:13,488 - INFO - Analyzing resubmission eligibility...
+2025-08-15 01:02:13,492 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 01:02:13,494 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 01:02:13,497 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-15 01:02:13,500 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 01:02:13,502 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 01:02:13,504 - INFO - Pipeline completed successfully!
+2025-08-15 01:02:13,506 - INFO - Identified 4 claims for resubmission
+2025-08-15 01:02:13,511 - INFO - All 4 candidates passed validation
+2025-08-15 01:02:13,515 - INFO - Results saved to resubmission_candidates.json
+2025-08-15 01:02:13,535 - INFO - File verification successful: 4 records
+2025-08-15 01:02:13,538 - INFO - Metrics saved to pipeline_metrics.json
+2025-08-15 01:02:13,570 - INFO - Successfully loaded 6 records from emr_alpha.csv
+2025-08-15 01:02:13,576 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-15 01:02:13,580 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 01:02:13,583 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 01:02:13,585 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 01:02:13,587 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 01:02:13,590 - INFO - 'Authorization expired' matched explicit non-retryable rule
+2025-08-15 01:02:13,592 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-15 01:02:13,595 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-15 01:02:13,597 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 01:02:13,602 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 01:02:13,608 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 01:02:13,612 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 01:02:13,614 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 01:02:13,618 - INFO - 'incorrect procedure' classified as retryable via ambiguous mapping
+2025-08-15 01:02:13,623 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 01:02:13,626 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 01:02:13,630 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-15 01:02:13,632 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 01:02:13,635 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 15:20:02,869 - INFO - Starting healthcare claims processing pipeline
+2025-08-15 15:20:02,869 - INFO - Ingesting data from EMR sources...
+2025-08-15 15:20:02,910 - INFO - Successfully loaded 6 records from emr_alpha.csv
+2025-08-15 15:20:02,927 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-15 15:20:02,927 - INFO - Normalizing schemas...
+2025-08-15 15:20:02,934 - INFO - Normalized 10 total claims
+2025-08-15 15:20:02,940 - INFO - Analyzing resubmission eligibility...
+2025-08-15 15:20:02,942 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 15:20:02,942 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 15:20:02,951 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-15 15:20:02,951 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 15:20:02,951 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 15:20:02,960 - INFO - Pipeline completed successfully!
+2025-08-15 15:20:02,960 - INFO - Identified 4 claims for resubmission
+2025-08-15 15:20:02,968 - INFO - All 4 candidates passed validation
+2025-08-15 15:20:02,968 - INFO - Results saved to resubmission_candidates.json
+2025-08-15 15:20:02,975 - INFO - File verification successful: 4 records
+2025-08-15 15:20:02,984 - INFO - Metrics saved to pipeline_metrics.json
+2025-08-15 15:20:03,032 - INFO - Successfully loaded 6 records from emr_alpha.csv
+2025-08-15 15:20:03,040 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-15 15:20:03,049 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 15:20:03,049 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 15:20:03,049 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 15:20:03,057 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 15:20:03,065 - INFO - 'Authorization expired' matched explicit non-retryable rule
+2025-08-15 15:20:03,065 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-15 15:20:03,065 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-15 15:20:03,073 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 15:20:03,073 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 15:20:03,081 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 15:20:03,081 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 15:20:03,091 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 15:20:03,093 - INFO - 'incorrect procedure' classified as retryable via ambiguous mapping
+2025-08-15 15:20:03,098 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 15:20:03,098 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 15:20:03,098 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-15 15:20:03,107 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 15:20:03,115 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 15:20:08,263 - INFO - Starting healthcare claims processing pipeline
+2025-08-15 15:20:08,271 - INFO - Ingesting data from EMR sources...
+2025-08-15 15:20:08,280 - INFO - Successfully loaded 6 records from emr_alpha.csv
+2025-08-15 15:20:08,287 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-15 15:20:08,287 - INFO - Normalizing schemas...
+2025-08-15 15:20:08,295 - INFO - Normalized 10 total claims
+2025-08-15 15:20:08,295 - INFO - Analyzing resubmission eligibility...
+2025-08-15 15:20:08,295 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 15:20:08,303 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 15:20:08,303 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-15 15:20:08,311 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 15:20:08,311 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 15:20:08,311 - INFO - Pipeline completed successfully!
+2025-08-15 15:20:08,320 - INFO - Identified 4 claims for resubmission
+2025-08-15 15:20:08,328 - INFO - All 4 candidates passed validation
+2025-08-15 15:20:08,328 - INFO - Results saved to resubmission_candidates.json
+2025-08-15 15:20:08,337 - INFO - File verification successful: 4 records
+2025-08-15 15:20:08,344 - INFO - Metrics saved to pipeline_metrics.json
+2025-08-15 15:20:08,388 - INFO - Successfully loaded 6 records from emr_alpha.csv
+2025-08-15 15:20:08,393 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-15 15:20:08,401 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 15:20:08,401 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 15:20:08,409 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 15:20:08,409 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 15:20:08,417 - INFO - 'Authorization expired' matched explicit non-retryable rule
+2025-08-15 15:20:08,417 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-15 15:20:08,425 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-15 15:20:08,425 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 15:20:08,433 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 15:20:08,433 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 15:20:08,441 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 15:20:08,449 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 15:20:08,454 - INFO - 'incorrect procedure' classified as retryable via ambiguous mapping
+2025-08-15 15:20:08,457 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-15 15:20:08,457 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-15 15:20:08,465 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-15 15:20:08,465 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-15 15:20:08,474 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-16 16:09:57,380 - INFO - Starting healthcare claims processing pipeline
+2025-08-16 16:09:57,384 - INFO - Ingesting data from EMR sources...
+2025-08-16 16:09:57,467 - INFO - Successfully loaded 6 records from emr_alpha.csv
+2025-08-16 16:09:57,481 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-16 16:09:57,483 - INFO - Normalizing schemas...
+2025-08-16 16:09:57,485 - INFO - Normalized 10 total claims
+2025-08-16 16:09:57,487 - INFO - Analyzing resubmission eligibility...
+2025-08-16 16:09:57,488 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-16 16:09:57,488 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-16 16:09:57,490 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-16 16:09:57,491 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-16 16:09:57,493 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-16 16:09:57,494 - INFO - Pipeline completed successfully!
+2025-08-16 16:09:57,495 - INFO - Identified 4 claims for resubmission
+2025-08-16 16:09:57,496 - INFO - All 4 candidates passed validation
+2025-08-16 16:09:57,499 - INFO - Results saved to resubmission_candidates.json
+2025-08-16 16:09:57,516 - INFO - File verification successful: 4 records
+2025-08-16 16:09:57,519 - INFO - Metrics saved to pipeline_metrics.json
+2025-08-16 16:09:57,539 - INFO - Successfully loaded 6 records from emr_alpha.csv
+2025-08-16 16:09:57,544 - INFO - Successfully loaded 4 records from emr_beta.json
+2025-08-16 16:09:57,546 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-16 16:09:57,548 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-16 16:09:57,549 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-16 16:09:57,549 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-16 16:09:57,550 - INFO - 'Authorization expired' matched explicit non-retryable rule
+2025-08-16 16:09:57,552 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-16 16:09:57,554 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-16 16:09:57,556 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-16 16:09:57,558 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-16 16:09:57,560 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-16 16:09:57,561 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-16 16:09:57,562 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-16 16:09:57,565 - INFO - 'incorrect procedure' classified as retryable via ambiguous mapping
+2025-08-16 16:09:57,566 - INFO - 'Missing modifier' matched explicit retryable rule
+2025-08-16 16:09:57,567 - INFO - 'Incorrect NPI' matched explicit retryable rule
+2025-08-16 16:09:57,569 - INFO - 'Prior auth required' matched explicit retryable rule
+2025-08-16 16:09:57,571 - INFO - 'Incorrect provider type' matched explicit non-retryable rule
+2025-08-16 16:09:57,572 - INFO - 'Missing modifier' matched explicit retryable rule

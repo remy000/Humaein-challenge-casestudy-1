@@ -29,13 +29,15 @@ env/
 ehthumbs.db
 Thumbs.db
 
-# Logs
-*.log
+
 
 # Temporary files
 *.tmp
 *.temp
 *.bak
+
+# Output files that might be regenerated
+pipeline_metrics.json
 
 # Python distribution / packaging
 .Python
