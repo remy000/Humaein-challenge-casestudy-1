@@ -1,0 +1,52 @@
+# Healthcare Claims Processing Pipeline Requirements
+# ================================================
+
+# Core Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Web Framework (FastAPI)
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+python-multipart>=0.0.6
+
+# Data Validation
+pydantic>=2.0.0
+
+# Workflow Orchestration (Optional - for production Dagster)
+# dagster>=1.5.0
+# dagster-webserver>=1.5.0
+
+# Machine Learning & AI (for production LLM integration)
+# openai>=1.0.0
+# azure-openai>=1.0.0
+# transformers>=4.30.0
+
+# Database & Storage (for production)
+# sqlalchemy>=2.0.0
+# psycopg2-binary>=2.9.0
+# redis>=4.5.0
+
+# Monitoring & Logging
+# structlog>=23.0.0
+# prometheus-client>=0.16.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.0.0
+
+# Development Tools
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Utilities
+python-dateutil>=2.8.0
+pathlib2>=2.3.0  # For older Python versions
+typing-extensions>=4.0.0
+
+# Optional: For enhanced data processing
+# polars>=0.18.0  # Alternative to pandas for large datasets
+# pyarrow>=12.0.0  # For parquet file support
+# dask>=2023.5.0  # For distributed computing

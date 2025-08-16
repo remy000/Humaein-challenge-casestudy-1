@@ -1,0 +1,17 @@
+{
+  "execution_timestamp": "2025-08-16T16:09:57.518102",
+  "reference_date": "2025-07-30T00:00:00",
+  "total_claims_processed": 10,
+  "claims_by_source": {
+    "alpha": 6,
+    "beta": 4
+  },
+  "flagged_for_resubmission": 4,
+  "excluded_claims": 6,
+  "exclusion_reasons": {
+    "Patient ID is null or empty": 3,
+    "Status is 'approved', not 'denied'": 2,
+    "Denial reason 'Incorrect provider type' classified as non_retryable": 1
+  },
+  "processing_errors": 0
+}
